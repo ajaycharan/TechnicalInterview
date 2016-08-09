@@ -12,4 +12,4 @@
 ### Practice Problems
 
 * [binarysearch.py](binarysearch.py): Implementation of binary search algorithm.
-* [quicksort.py](quicksort.py): Implementation of quick sort algorithm.
+* [quicksort.py](quicksort.py): Implementation of quick sort algorithm. This implementation was really difficult and I had to take help from this [link](http://interactivepython.org/runestone/static/pythonds/SortSearch/TheQuickSort.html). I need to practice implementing these algorithms!
