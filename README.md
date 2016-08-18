@@ -12,3 +12,5 @@ The course is divided into several modules. Each module covers one common topic 
 * [Maps and Hashing](Maps/README.md): Discused the concept of maps and hashing. Concluded the module with an implementation of hash maps.
 * [Trees](Trees/README.md): Discussed terminology, traversal and different types of tree like data structures.
 * [Graphs](Graphs/README.md): Discussed terminology and different types of graph data structures.
+* [Case Studies in Algorithms](Algorithms/README.md): Discussed few common algorithms asked about in interviews along with solutions.
+* [Technical Interview](Interview/READMe.md): Discussed various steps for approaching a problem during a technical interview.

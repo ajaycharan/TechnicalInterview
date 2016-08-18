@@ -1,0 +1,11 @@
+## Case Studies in algorithms
+
+* There are several frequently asked questions related to popular algorithms. This module covers some of these topics.
+* Shortest Path Problem: is to find the shortest path from a start to an end node in a weighted graph. If the graph is unweighted, we can solve the problem using BFS.
+* A solution to the shortest path problem is the Dijkstra's algorithm. This is implemented using a minimum priority queue where the node that is dequed has the smallest weight. This is considered a greedy algorithm and has worst case run time of O(|V|^2). However efficient implementations can reduce the run time to O(|E|+|V|log|V|).
+* Knapsack Problem: Pack a knapsack with articles such that the value is maximized when the pack has a finite weight limit. A specific instance is the 0-1 problem where only one element of each type can be included. The brute force approach to this problem is horrible as it has a time complexity of O(2^n).
+* Faster approach: Start by trying to solve a subproblem i.e. the max value for a weight smaller than max weight. Use a look up table to finally build up to the max weight. This is a pseudo polynomial algorithm i.e. the time complexity is reduced to O(nW) where W is the max weight.
+* Dynamic Programming: The approach used above is a type of DP. If a problem can be reduced to several subproblems then DP is applicable. There are three important implementation details for DP i.e. the base case which is a very trivial subproblem, a look up table and an update rule to solve larger subproblems.
+* Traveling Salesman Problem: This is an optimization problem where we would like to know the most efficient path to follow to visit all the nodes in a graph. It is considered as an NP-hard problem as we are not able to find a polynomial time solution.
+* There are two approaches to this problem: exact and approximate. Exact solution uses brute force and exponential time complexity. Approximate finds an approximate solution and has polynomial time complexity. Held-Karp algorithm is exact for Traveling salesman and Christofides algorithm is approximate where the graph is converted to a tree.
+* Knapsack problem is also an NP-hard problem and it can only be reduced to pseudo polynomial time.
