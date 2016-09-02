@@ -48,7 +48,7 @@ def getShortestUniqueSubstring(arr, string):
         # push tail forward
         while uniqueCounter == len(arr):
             # length of current substr
-            tempLength = h - t + 1
+            tempLength = h-t+1
 
             # best possible case, return string
             if tempLength == len(arr):
